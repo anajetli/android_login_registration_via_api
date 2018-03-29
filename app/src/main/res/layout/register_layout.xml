@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/student_01"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_below="@+id/iv_user"
+        android:layout_marginTop="22dp"
+        android:text="Name"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/et_reg_email"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:id="@+id/tv_reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_below="@+id/et_name"
+        android:layout_marginTop="22dp"
+        android:text="Email"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/et_reg_password"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_reg_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:id="@+id/tv_reg_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_below="@+id/et_reg_email"
+        android:layout_marginTop="22dp"
+        android:text="Password"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:background="@drawable/button_rectangle_pink"
+        android:textColor="#ffffff"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/et_reg_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Register" />
+
+
+</RelativeLayout>
