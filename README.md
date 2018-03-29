@@ -1,4 +1,4 @@
-# android_login_registration_via_api
+# Android Login & Registration Authenticae via API
 A simple and beautiful Login and Registration Form, Authenticate via API
 using OkHttp (methods: GET & POST)
 
