@@ -12,3 +12,6 @@ This is for beginners who want to design Login and Registration Forms for all de
 ### Tutorial
 You can watch the tutorial here
 
+Part - 1 (Design):
+https://www.youtube.com/watch?v=KcdIIoZ9LDM
+
